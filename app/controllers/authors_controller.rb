@@ -13,8 +13,8 @@ class AuthorsController < ApplicationController
   end
 
   # GET /authors/new
-  def news
-    @authors = Author.new
+  def new
+    @author = Author.new
   end
 
   # GET /authors/1/edit
