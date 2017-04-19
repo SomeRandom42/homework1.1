@@ -4,12 +4,12 @@ class AuthorsController < ApplicationController
   # GET /authors
   # GET /authors.json
   def index
-    @author = Author.all
+    @authors = Author.all
   end
 
   # GET /authors/1
   # GET /authors/1.json
-  def shows
+  def show
   end
 
   # GET /authors/new
@@ -18,7 +18,7 @@ class AuthorsController < ApplicationController
   end
 
   # GET /authors/1/edit
-  def edits
+  def edit
   end
 
   # POST /authors
